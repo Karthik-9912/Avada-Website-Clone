@@ -172,3 +172,364 @@ background-color: #68b840;
 background-color: #2298bc;
 }
 
+#sec2{
+    /* border: 2px solid red; */
+    height: 300px;
+    align-content: center;
+}
+#sec2 div{
+    /* border: 2px solid red; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    gap: 25px;
+}
+#sec2 img{
+    height: 65px;
+    width: 65px;
+}
+#sec2 h1{
+    font-size: 48px;
+    color: #282828;
+}
+#sec2 p{
+    font-size: 18px;
+    color: #575757;
+}
+
+#sec3 div{
+    /* border: 2px solid red; */
+    height: 715px;
+    width: 95%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+#sec3 img{
+    height: 622px;
+    width: 920px;
+}
+#sec3 ol{
+    /* border: 2px solid blue; */
+    height: 622px;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 5px;
+}
+#sec3 ol li{
+    list-style: none;
+    font-size: 20px;
+    width: 250px;
+    height: 60px;
+    color: #282828;
+    font-weight: 550;
+    align-content: center;
+}
+#sec3 ol li:first-child{
+    background-color: rgba(211, 211, 211, 0.279);
+    border-radius: 5px;
+}
+#sec3 ol li:hover{
+    background-color: rgba(211, 211, 211, 0.279);
+    border-radius: 5px;
+}
+
+#sec4{
+    /* border: 2px solid red; */
+    height: 230px;
+    align-content: center;
+}
+#sec4 div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px
+    ;
+}
+#sec4 h1{
+    font-size: 48px;
+    color: #282828;
+}
+
+#sec4 p{
+font-size: 18px;
+color: #575757;
+}
+
+#sec5{
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 65px;
+}
+#sec5 div{
+    /* border: 2px solid green; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#sec5 img{
+    height: 242px;
+    width: 373px;
+}
+#sec5 h1{
+    font-size: 24px;
+    color: #282828;
+    line-height: 3;
+}
+#sec5 p{
+    font-size: 16px;
+    color: #575757;
+    text-align: center;
+    line-height: 1.7;
+}
+#sec6{
+    /* border: 2px solid blue; */
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 65px;
+}
+#sec6 div{
+    /* border: 2px solid green; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#sec6 img{
+ height: 242px;
+    width: 373px;
+}
+#sec6 h1{
+    font-size: 24px;
+    color: #282828;
+    line-height: 3;
+}
+#sec6 p{
+    font-size: 16px;
+    color: #575757;
+    text-align: center;
+    line-height: 1.7;
+}
+#sec6-btn{ 
+    /* border: 2px solid red; */
+    height: 130px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#sec6-btn button{
+    border-radius: 5px;
+    height: 56px;
+    width: 216px;
+    font-size: 1rem;
+    font-weight: 600;
+    background-color: #282828;
+    color: white;
+}
+#sec6-btn button:hover{
+    background-color: black;
+    color: #ffffff;
+}
+#sec7{
+    /* border: 2px solid blue; */
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+}
+#sec7 h1{
+    font-size: 48px;
+    text-align: center;
+    color: #282828
+}
+#sec7 p{
+    font-size: 18px;
+    color: #575757;
+    line-height: 4;
+}
+#sec8{
+    /* border: 2px solid red; */
+    height: 340px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+}
+#sec8 div{
+    /* border: 2px solid blue; */
+    height: 340px;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#sec8 h3{
+    /* border: 2px solid green; */
+    height: 60px;
+    font-size: 20px;
+    color: #282828;
+    align-content: flex-end;
+}
+#sec8 p{
+    /* border: 2px solid purple; */
+    height: 85px;
+    font-size: 16px;
+    color: #575757;
+    text-align: center;
+    align-content: flex-end;
+    line-height: 1.5;
+}
+
+#sec9{
+    /* border: 2px solid red; */
+    height: 700px;
+    /* width: 100%; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#sec9 div{
+    background-color: #ffe979;
+    height: 564px;
+    width: 100%;
+}
+#sec9 article{
+    height: 500px;
+    /* border: 2px solid blue; */
+}
+#sec9 article p{
+    height: 330px;
+    /* width: 640px; */
+    font-size: 25px;
+    color: #282828;
+    /* border: 2px solid green; */
+    align-content: center;
+    line-height: 1.4;
+}
+#sec9 aside{
+    display: flex;
+    gap: 18px;
+    
+}
+#sec9 aside h3{
+    font-size: 20px;
+    /* font-weight: 200px ;*/
+}
+#sec9 a{
+    color: #282828;
+    text-decoration: none;
+    line-height: 3;
+    font-size: 16px;
+}
+
+#sec10{
+    border: 2px solid red;
+    height: 700px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+}
+#sec10 h1{
+    border: 2px solid blue ;
+    height: 200px;
+    align-content: center;
+    font-size: 48px;
+    color: #282828;
+}
+
+#sec10 article{
+    border: 2px solid green;
+    height: 500px;
+    width: 900px;
+    
+}
+
+#sec10 div{
+    border: 2px solid purple;
+    height: 80px;
+    align-content: center;
+}   
+
+#sec10 summary{
+    list-style: none;
+    font-size: 24px;
+    font-weight: 550;
+    text-transform: capitalize;
+    color: #282828;
+    cursor: pointer;
+    
+}
+
+#sec11{
+    /* border: 2px solid red; */
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+#sec11 article{
+    background-color: #b7f598;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+    width: 1370px;
+    border-radius: 5px;
+    position: absolute;
+    top: 10%;
+
+}
+#sec11 div:first-child{
+    /* border: 2px solid blue; */
+    width: 650px;
+    height: 300px;
+}
+#sec11 h1{
+    height: 140px;
+    font-size: 48px;
+    color: #282828;
+    align-content: center;
+}
+#sec11 p{
+        height: 90px;
+    line-height: 1.7;
+    font-size: 18px;
+    color: #575757;
+}
+#sec11 button{
+    font-size: 20px;
+    color: white;
+    background-color: #282828;
+    height: 60px;
+    border: none;
+    border-radius: 5px;
+    width: 250px;
+}
+
+#sec12{
+    background-color: black;
+    height: 630px;
+    color: white;
+}
+#sec12 footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
