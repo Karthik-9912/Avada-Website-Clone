@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Inter', sans-serif;
 }
 nav{
     /* border: 2px solid red; */
@@ -14,6 +14,7 @@ nav{
 nav img{
     width: 165px;
     height: 36px;
+    cursor: pointer;
 }
 /* nav div{
     border: 2px solid blue;
@@ -44,6 +45,7 @@ nav button{
 nav button:hover{
     background-color: black;
     color: #ffffff;
+    cursor: pointer;
 }
 main{
     /* border: 2px solid green; */
@@ -68,7 +70,8 @@ main h1{
 main p{
     font-size: 18px;
     color: #575757;
-    height: 50px;
+    height: 70px;
+    line-height: 1.5;
 }
 main img{
     /* border: 2px solid blue; */
@@ -107,6 +110,7 @@ main button{
 }
 main button:hover{
     background-color: black;
+    cursor: pointer;
 }
 
 #sec1{
@@ -238,6 +242,7 @@ background-color: #2298bc;
 #sec3 ol li:hover{
     background-color: rgba(211, 211, 211, 0.279);
     border-radius: 5px;
+    cursor: pointer;
 }
 
 #sec4{
@@ -341,6 +346,7 @@ color: #575757;
 #sec6-btn button:hover{
     background-color: black;
     color: #ffffff;
+    cursor: pointer;
 }
 #sec7{
     /* border: 2px solid blue; */
@@ -437,7 +443,7 @@ color: #575757;
 }
 
 #sec10{
-    border: 2px solid red;
+    /* border: 2px solid red; */
     height: 700px;
     display: flex;
     flex-direction: column;
@@ -446,7 +452,7 @@ color: #575757;
     gap: 25px;
 }
 #sec10 h1{
-    border: 2px solid blue ;
+    /* border: 2px solid blue ; */
     height: 200px;
     align-content: center;
     font-size: 48px;
@@ -454,17 +460,10 @@ color: #575757;
 }
 
 #sec10 article{
-    border: 2px solid green;
+    /* border: 2px solid green; */
     height: 500px;
     width: 900px;
-    
 }
-
-#sec10 div{
-    border: 2px solid purple;
-    height: 80px;
-    align-content: center;
-}   
 
 #sec10 summary{
     list-style: none;
@@ -473,9 +472,15 @@ color: #575757;
     text-transform: capitalize;
     color: #282828;
     cursor: pointer;
-    
+    padding-top: 25px;
+    height: 85px;
 }
-
+#sec10 summary span{
+    float: right;
+}
+#sec10 ul{
+    list-style: none;
+}
 #sec11{
     /* border: 2px solid red; */
     height: 500px;
@@ -521,6 +526,7 @@ color: #575757;
     border: none;
     border-radius: 5px;
     width: 250px;
+    cursor: pointer;
 }
 
 #sec12{
@@ -545,6 +551,7 @@ color: #575757;
 #sec12 ul li{
     font-size: 16px;
     line-height: 2;
+    cursor: pointer;
 }
 #sec12 div p{
     font-size: 14px;
@@ -554,6 +561,7 @@ color: #575757;
 }
 #sec12 div>img{
     display: flex;
+    cursor: pointer;
 }
 #sec12 div:last-child{
     /* border: 2px solid blue; */
@@ -561,7 +569,7 @@ color: #575757;
 }
 
 #sec12 article{
-    border: 2px solid green;
+    /* border: 2px solid green; */
     background-color: #ffffff;
     width: 322x;
     height: 50px;
@@ -593,6 +601,7 @@ color: #575757;
 #sec12 article button:hover{
     background-color: black;
     color: #ffffff;
+    cursor: pointer;
 }
 
 #sec12 aside{
@@ -622,4 +631,5 @@ color: #575757;
     border: none;
     border-radius: 5px;
     padding: 9px 11px;
+    cursor: pointer;
 }
